@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Alatsi|Quicksand|Solway&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>HomeWork 3 part 2</title>
+  </head>
+  <body>
+
+    <table class="table">
+      <tr>
+        <td colspan="2" class="header">
+          <img src="img/shapka.png" class="img_header" alt="Шапка сайту">
+
+          <a href="index.html" class="header_text">
+            howstuffwo<sup>?</sup>rks
+          </a>
+          <span>
+            <a class="header_links" href="#">Computer Hardware</a>
+            <a class="header_links" href="#">Internet</a>
+            <a class="header_links" href="#">Computer Software</a>
+            <a class="header_links" href="#">Computer Security</a>
+            <a class="header_links" href="#">Computer Peripherals</a>
+          </span>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td class="middle">
+
+          <a class="middle_links" href="#">HowStuffWorks</a>
+          <span class="just_span">
+            ◂
+          </span>
+          <a class="middle_links" href="#">Tech</a>
+          <span class="just_span">
+            ◂
+          </span>
+          <a class="middle_links" href="#">Computer</a>
+          <span class="just_span">
+            ◂
+          </span>
+          <a class="middle_links" href="#">Internet</a>
+          <span class="just_span">
+            ◂
+          </span>
+          <a class="middle_links" href="#">Internet Basics</a>
+
+          <h1 class="h1_middle">
+            Why do some Web sites include www in the URL while others don't?
+          </h1>
+
+          <p>
+          <img src="img/website-1.jpg" alt="Інтернет" class="middle_img">
+            A "normal" Web site has a URL that looks like this:
+            https://www.howstuffworks.com. You may have noticed that on many
+            sites, the "www" part is not required. You can just as easily use
+            https://howstuffworks.com to get to HowStuffWorks. There are other
+            sites that have extra layers of naming, such as
+            http://www.delphion.com and http://journal.iftech.com, that seem to
+            use a different word besides "www" to reference different Web sites.
+            Another common thing you see is a name like ftp.microsoft.com, used
+            either with the FTP command or as a URL (ftp://ftp.microsoft.com) in
+            a browser.
+          </p>
+          <p>
+            If you have read the article How Web Servers Work, then you know
+            about name servers and IP addresses. A name server translates a
+            name to an IP address. When you type a URL like
+            https://www.howstuffworks.com into your browser, the browser
+            contacts its default name server and asks, "Have you ever heard of
+            www.howstuffworks.com?" If this is the first time the name server
+            has heard of www.howstuffworks.com, it finds the .com name server
+            and asks if it knows of the name server handling howstuffworks.com.
+            If so, your name server connects to the name server for
+            howstuffworks.com and asks it about www.howstuffworks.com.
+            If the HowStuffWorks name server has a listing for the www prefix,
+            it returns the IP address for "www.howstuffworks.com" and your
+            browser connects to that IP address.
+          </p>
+          <br>
+          <p>
+            The network administrator for the domain "howstuffworks.com" is in
+            charge of mapping the names in the howstuffworks.com domain to
+            specific machines and their IP addresses. In many large companies,
+            there will be different machines (with different IP addresses)
+            handling WWW, FTP, Telnet and other traffic. On smaller sites, the
+            same machine can handle everything.
+          </p>
+        </td>
+
+
+        <td class="nav">
+          <span class="span_nav">
+            MORE WEB BASICS
+          </span>
+          <img class="nav_img1" src="img/nav1.jpg" alt="Домени">
+
+          <a class="nav_a_lower" href="#">
+            Domain Names
+          </a>
+
+          <img class="nav_img2" src="img/nav2.jpg" alt="Інтернет">
+
+          <a class="nav_a_lower" href="#">
+            Internet Infrastructure
+          </a>
+
+          <img class="nav_img3" src="img/nav3.jpg" alt="Чисто інтернет">
+        </td>
+      </tr>
+    </table>
+
+  </body>
+</html>
